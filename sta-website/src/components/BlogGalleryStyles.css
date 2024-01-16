@@ -1,0 +1,95 @@
+/* *{
+    margin-bottom: 30px;
+    
+} */
+
+.gallery{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr;
+    /* grid-template-rows: 1fr .5fr; */
+    grid-template-areas:
+    "mosque-img alley-img boat-img"
+    "mosque-img statue-img statue-img";
+    
+    /* object-fit: fill; */
+    grid-gap: 1em;
+    padding:1em;
+}
+
+/* grid template areas not working, 
+after so many videos showing how easy it is to make a image collage and tim wasted, 
+the problem was that on Inspect, it showed the grid-area in each of the images are not working. And it says its to do with a parent element having display:block and should change it to display:grid.
+which is bs becuase theres nothing in this css file in this component that has display block.
+the herosection and navbar hane display flex only and im not going to change them. */
+
+.grid-item img{
+    border-radius: 10px;
+}
+
+
+.mosque-img{
+    grid-area: mosque-img;
+        
+}
+
+.alley-img{
+    grid-area: alley-img;
+}
+.statue-img{
+    grid-area: statue-img;
+    
+}
+
+.boat-img{
+    grid-area: boat-img;
+}
+
+.grid-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 30%;
+    /* height: 25vh; */
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    margin: auto;
+    
+
+
+}
+
+.small-pic{
+    width: 20%;
+    
+}
+
+.content h1, .content p{
+    color: bisque;
+}
+
+.grid-item:hover img{
+    filter: brightness(60%);
+    transition: all 0.1s ease-in-out;
+    
+    
+}
+
+.content:hover{
+    opacity: 1;
+    
+}
+
+
+
+
+
+
