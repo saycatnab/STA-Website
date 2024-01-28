@@ -9,53 +9,60 @@ import instaIcon from "../assets/instaLogo.png"
 
 const InstaPosts = () => {
     return(
-        <div className="insta-display">
-            <div className="wrap">
-                <div className="view-insta">
-                    <span><img src={InstaPl}></img></span>
-                    <div className="hhover">
-                        <p>view on instagram</p>
-                        <img src={instaIcon} ></img>
-                    </div>
-                    
-                </div>
-                <div className="view-insta">
-                    <span><img src={InstaPl}></img></span>
-                    <div className="hhover">
-                        <p>view on instagram</p>
-                        <img src={instaIcon} ></img>
-                    </div>
-                </div>
-                <div className="view-insta">
-                    <span><img src={InstaPl}></img></span>
-                    <div className="hhover">
-                        <p>view on instagram</p>
-                        <img src={instaIcon} ></img>
-                    </div>
-                </div>
+        <div className="insta-posts-section">
+            <div className="seperator seperator-insta">
+                        <p>Instagram posts</p>
+                        <div></div>
             </div>
-            <div className="wrap">
-                <div className="view-insta">
-                    <span><img src={InstaPl}></img></span>
-                    <div className="hhover">
-                        <p>view on instagram</p>
-                        <img src={instaIcon} ></img>
+            <div className="insta-display">
+                
+                <div className="wrap">
+                    <div className="view-insta">
+                        <span><img src={InstaPl}></img></span>
+                        <div className="hhover">
+                            <p>view on instagram</p>
+                            <img src={instaIcon} ></img>
+                        </div>
+                        
+                    </div>
+                    <div className="view-insta">
+                        <span><img src={InstaPl}></img></span>
+                        <div className="hhover">
+                            <p>view on instagram</p>
+                            <img src={instaIcon} ></img>
+                        </div>
+                    </div>
+                    <div className="view-insta">
+                        <span><img src={InstaPl}></img></span>
+                        <div className="hhover">
+                            <p>view on instagram</p>
+                            <img src={instaIcon} ></img>
+                        </div>
                     </div>
                 </div>
-                <div className="view-insta">
-                    <span><img src={InstaPl}></img></span>
-                    <div className="hhover">
-                        <p>view on instagram</p>
-                        <img src={instaIcon} ></img>
+                {/* <div className="wrap">
+                    <div className="view-insta">
+                        <span><img src={InstaPl}></img></span>
+                        <div className="hhover">
+                            <p>view on instagram</p>
+                            <img src={instaIcon} ></img>
+                        </div>
                     </div>
-                </div>
-                <div className="view-insta">
-                    <span><img src={InstaPl}></img></span>
-                    <div className="hhover">
-                        <p>view on instagram</p>
-                        <img src={instaIcon} ></img>
+                    <div className="view-insta">
+                        <span><img src={InstaPl}></img></span>
+                        <div className="hhover">
+                            <p>view on instagram</p>
+                            <img src={instaIcon} ></img>
+                        </div>
                     </div>
-                </div>
+                    <div className="view-insta">
+                        <span><img src={InstaPl}></img></span>
+                        <div className="hhover">
+                            <p>view on instagram</p>
+                            <img src={instaIcon} ></img>
+                        </div>
+                    </div>
+                </div> */}
             </div>
         </div>
     )

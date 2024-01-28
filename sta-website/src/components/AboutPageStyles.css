@@ -1,0 +1,47 @@
+.About-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 300px;
+    margin: auto;
+}
+
+.placeholder{
+    width: 60%;
+    margin: auto;
+}
+
+.paragraph{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+    font-weight: 400;
+    
+}
+
+p > a{
+    color: rgb(234, 178, 111);
+}
+
+
+
+@media (max-width: 500px) and (min-width: 300px){
+    .placeholder{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 1000px) and (min-width: 500px){
+    .placeholder{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+
+
+}

@@ -1,0 +1,160 @@
+
+.servicesTabsSection{
+    
+}
+
+.servicesTabs-wrapper{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    height: 50vh;
+}
+
+.servicesTab-img{
+    width: 40%;
+    margin: auto;
+    /* margin-left: 60px; */
+    margin-bottom: 20px;
+}
+
+.servicesTab-img-single{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.servicesTab-img-group{
+    margin-bottom: 20px;
+}
+
+
+.servicesTabs{
+    width: 30%;
+    padding: 30px;
+    flex: 1;
+    text-align: center;
+    background-color: rgb(253, 245, 241);
+    margin-left: 50px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.services3{
+    margin-right: 50px;
+}
+
+.register-btn{
+    
+    background-color: #f1b59a ;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1000px) and (min-width: 700px){
+    .servicesTabs-wrapper{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .servicesTabs{
+        width: 40%;
+        padding: 60px;
+        flex: none;
+        text-align: center;
+        background-color: rgb(253, 245, 241);
+        margin-left: 50px;
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        
+    }
+
+    
+    
+}
+
+@media (max-width: 700px) and (min-width: 400px){
+    .servicesTabs-wrapper{
+
+        width: 100%;
+       
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin: auto;
+        
+    }
+    .servicesTabs{
+        width: 60%;
+        padding: 60px;
+        flex: none;
+        text-align: center;
+        background-color: rgb(253, 245, 241);
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    
+}
+
+@media (max-width: 400px) and (min-width: 200px){
+    .servicesTabs-wrapper{
+
+        width: 100%;
+       
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin: auto;
+        
+    }
+    .servicesTabs{
+        width: 70%;
+        padding: 60px;
+        flex: none;
+        text-align: center;
+        background-color: rgb(253, 245, 241);
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+}
+
+/* @media (max-width: 500px) and (min-width: 300px){
+    .servicesTabs-wrapper{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .servicesTabs{
+        width: 70%;
+        padding: 30px;
+        flex: none;
+        text-align: center;
+        background-color: rgb(253, 245, 241);
+        margin-left: 50px;
+        border-radius: 10px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        
+    }
+} */
+
+
+
+

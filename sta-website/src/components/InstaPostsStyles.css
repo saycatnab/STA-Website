@@ -1,7 +1,7 @@
 .insta-display{
     width: 70%;
     display: flex;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     justify-content: space-between;
     margin: auto;
     align-items: center;
@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-.view-insta:hover{
+.view-insta:hover img{
     filter: brightness(60%);
     transition: all 0.1s ease-in-out;
 }
@@ -39,7 +39,8 @@
 
 .hhover{
     position: absolute;
-    width: 10%;
+    display: flex;
+    width: 50%;
     z-index: 10;
     opacity: 0;
     margin: auto;
@@ -55,14 +56,144 @@
 .hhover img{
     width: 30px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .hhover p{
     text-align: center;
+    flex-wrap: wrap;
 }
 
 
 .hhover:hover{
     opacity: 1;
     
+}
+
+/* .seperator{
+    margin: auto;
+    width: 90%;
+    background-color: rgb(54, 32, 10);
+    padding-bottom: 2px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+} */
+
+@media (max-width: 1000px) and (min-width: 800px){
+    .insta-posts-section{
+        margin-top: 500px;
+    }
+}
+
+
+@media (max-width: 800px) and (min-width: 600px){
+    .insta-posts-section{
+        margin-top: 300px;
+    }
+
+    .insta-display > .wrap{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .view-insta{
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        
+    }
+
+    .view-insta > span > img{
+        border-radius: 10px;
+    }
+
+    .hhover{
+        width: 30%;
+    }
+
+    .hhover img{
+        width: 40px;
+        margin: auto;
+    }
+    
+    .hhover p{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 400px){
+    .insta-posts-section{
+        margin-top: 750px;
+    }
+    .hhover{
+        width: 30%;
+        margin-right: 10px;
+    }
+    .insta-display > .wrap{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .view-insta{
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        
+    }
+
+    .view-insta > span > img{
+        border-radius: 10px;
+    }
+
+    .hhover img{
+        width: 40px;
+        margin: auto;
+    }
+    
+    .hhover p{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 200px){
+    .insta-posts-section{
+        margin-top: 750px;
+    }
+    .hhover{
+        width: 30%;
+        margin-right: 10px;
+    }
+    .insta-display > .wrap{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .view-insta{
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        
+    }
+
+    .view-insta > span > img{
+        border-radius: 10px;
+    }
+
+    .hhover img{
+        width: 40px;
+        margin: auto;
+    }
+    
+    .hhover p{
+        font-size: 30px;
+        text-align: center;
+    }
 }

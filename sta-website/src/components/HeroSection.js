@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 const HeroSection = () => {
     return(
         <div className="hero-section">
+            
             <div className="base">
                 <img className="clockTower-blog" src={clockTower}></img>
                 <div className="initial-blog">
@@ -14,11 +15,13 @@ const HeroSection = () => {
                     <button><Link to="/services" className="nav-btn">Our Services</Link></button>
                 </div>
             </div>
-            <div>
-            
+            <div className="seperator seperator-featured">
+                <p>Featured</p>
+                <div></div>
             </div>
+            
         </div>
     )
 }
 
-export default HeroSection
+export default HeroSection;

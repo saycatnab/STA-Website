@@ -1,0 +1,21 @@
+
+.footer-smWrap{
+    flex: 1;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.socials-foot{
+    filter:brightness(0%);
+    width: 15px;
+    margin-left: 2px;
+    /* margin: -15px; */
+}
+
+.footer-logo{
+    width: 20%;
+    margin: auto;
+}
