@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar"
+import ProductsPage from "../components/PDFfile";
 
 function Products() {
     return (
@@ -7,6 +8,7 @@ function Products() {
     <div>
         <Navbar />
         <p>Products</p>
+        <ProductsPage />
     </div>
     )
 }

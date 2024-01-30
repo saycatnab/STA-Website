@@ -23,6 +23,7 @@ after so many videos showing how easy it is to make a image collage and tim wast
 the problem was that on Inspect, it showed the grid-area in each of the images are not working. And it says its to do with a parent element having display:block and should change it to display:grid.
 which is bs becuase theres nothing in this css file in this component that has display block.
 the herosection and navbar hane display flex only and im not going to change them. */
+/* problem fixed, the issue was that the img tag nested in its iwn div, was causing some problems. So I made each img tag out of the div tag. */
 
 .grid-item img{
     border-radius: 10px;
