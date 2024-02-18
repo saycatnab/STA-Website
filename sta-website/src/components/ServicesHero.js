@@ -16,7 +16,7 @@ const ServicesHero = () => {
                     <span ><p className="servicesHero-callout">Check out our Services below!</p></span>
                    
                 </div>
-                <div>
+                <div className="servicesHero-imgWrapper">
                     <img className="servicesHero-img" src={SchoolImg}></img>
                 </div>
             </div>

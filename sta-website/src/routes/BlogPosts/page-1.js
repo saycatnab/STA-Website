@@ -3,6 +3,7 @@ import "./page-1.css"
 import Navbar from "../../components/Navbar"
 import MosqueImg from "../../assets/masjid-img.jpg"
 import { useState } from "react";
+import Footer from "../../components/Footer";
 
 
 const Page1 = () => {
@@ -25,6 +26,7 @@ const Page1 = () => {
                 Curabitur viverra ad molestie euismod hac nulla nullam etiam dui adipiscing enim, sociosqu consequat tempor vitae luctus sollicitudin nisl et condimentum diam, aenean vivamus habitasse torquent per sit primis a id aenean. Maecenas metus curae aenean tellus luctus aliquet fames congue purus commodo, convallis eros nec varius congue adipiscing donec venenatis hendrerit, etiam ad dictum vivamus eu a morbi lorem ut. Dolor hendrerit purus consequat ad, habitasse urna venenatis.
                 </p>
         </div>
+        <Footer />
     </div>
     )
 }

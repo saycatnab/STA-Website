@@ -4,6 +4,7 @@ import SchoolImg from "../assets/school-img.jpg"
 import { Link } from "react-router-dom"
 import GroupImg from "../assets/teaching-icon2.png"
 import SingleImg from "../assets/single-icon2.png"
+// import pdfFle from "../assets/"
 
 
 const ServicesTabs = () => {
@@ -29,6 +30,9 @@ const ServicesTabs = () => {
                     <Link to="/services" className="register-btn">Coming soon!</Link>
                     
                 </div>
+            </div>
+            <div className="test-products">
+                <button h></button>
             </div>
             
         </div>

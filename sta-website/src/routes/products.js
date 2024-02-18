@@ -1,14 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar"
-import ProductsPage from "../components/PDFfile";
+import Footer from "../components/Footer";
+import ProductsPage from "../components/ProductsPage";
 
 function Products() {
     return (
         
     <div>
         <Navbar />
-        <p>Products</p>
+        products page
         <ProductsPage />
+        <Footer />
     </div>
     )
 }
