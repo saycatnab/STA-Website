@@ -31,9 +31,7 @@ const ServicesTabs = () => {
                     
                 </div>
             </div>
-            <div className="test-products">
-                <button h></button>
-            </div>
+            
             
         </div>
     )

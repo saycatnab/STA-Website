@@ -31,9 +31,9 @@ const Footer = () => {
                 <div className="footer-flexItem footer-socials">
                     <h1>Follow us on</h1>
                     <div className="footer-smWrap">
-                        <img className="socials-foot" src={youtubeLogo}></img>
-                        <img className="socials-foot" src={instaLogo}></img>
-                        <img className="socials-foot" src={pinterestlogo}></img>
+                        <a className="socials-foot" href="https://www.youtube.com/" target="_blank"><img src={youtubeLogo}></img></a>
+                        <a className="socials-foot" href="https://www.instagram.com/sistersteachingabroad/" target="_blank"><img src={instaLogo}></img></a>
+                        <a className="socials-foot" href="https://www.pinterest.co.uk/" target="_blank"><img  src={pinterestlogo}></img></a>
                     </div>
                 </div>
             </div>

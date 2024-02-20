@@ -35,13 +35,13 @@ const Navbar = () => {
                         <img className="smlogo "src={searchLogo}></img>
                     </li>
                     <li>
-                        <img className="smlogo"src={instaLogo}></img>
+                        <a href="https://www.instagram.com/sistersteachingabroad/" target="_blank"><img className="smlogo"src={instaLogo}></img></a>
                     </li>
                     <li>
-                        <img className="smlogo pinterest"src={pinterestlogo}></img>
+                        <a href="https://www.pinterest.co.uk/" target="_blank"><img className="smlogo pinterest"src={pinterestlogo}></img></a>
                     </li>
                     <li>
-                        <img className="smlogo"src={youtubeLogo}></img>
+                        <a href="https://www.youtube.com/" target="_blank"><img className="smlogo"src={youtubeLogo}></img></a>
                     </li>
                     
                     </ul>

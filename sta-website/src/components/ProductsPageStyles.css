@@ -1,6 +1,13 @@
 .Product1-section{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Product1-section:nth-child(odd){
+    flex-direction: row-reverse;
 }
 
 .product-img, .product-desc{
@@ -8,6 +15,20 @@
 }
 
 .product-img{
-    width: 30%;
+    width: 25%;
     border-radius: 10px;
+    margin-right: 10px;
 }
+
+.product-desc{
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+.product-button{
+    width: 30%;
+    background-color: #e1b8a0;
+    margin-top: 20px;
+}
+

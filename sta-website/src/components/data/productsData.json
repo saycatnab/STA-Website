@@ -1,0 +1,23 @@
+[
+    {
+        "productTitle": "Guide to Teaching in the Middle East",
+        "productDesc": "Lorem ipsum eget fusce tempor dapibus lobortis lectus, blandit dictum himenaeos cursus diam et, sed sit aliquam suspendisse tristique non. Ad volutpat viverra maecenas rhoncus luctus turpis tellus, rutrum nisi imperdiet laoreet neque at ullamcorper, erat neque quis sociosqu rutrum imperdiet.",
+        "productPDF": "../../../assets/Guide-to-teaching.pdf",
+        "productPDFtitle":"Guide-to-teaching",
+        "productImg": "../../../assets/digitalProduct1.png"
+    },
+    {
+        "productTitle": "Guide to Teaching in the Middle East",
+        "productDesc": "Lorem ipsum eget fusce tempor dapibus lobortis lectus, blandit dictum himenaeos cursus diam et, sed sit aliquam suspendisse tristique non. Ad volutpat viverra maecenas rhoncus luctus turpis tellus, rutrum nisi imperdiet laoreet neque at ullamcorper, erat neque quis sociosqu rutrum imperdiet.",
+        "productPDF": "../../../assets/Guide-to-teaching.pdf",
+        "productPDFtitle":"Guide-to-teaching",
+        "productImg": "../../../assets/digitalProduct1.png"
+    },
+    {
+        "productTitle": "Guide to Teaching in the Middle East",
+        "productDesc": "Lorem ipsum eget fusce tempor dapibus lobortis lectus, blandit dictum himenaeos cursus diam et, sed sit aliquam suspendisse tristique non. Ad volutpat viverra maecenas rhoncus luctus turpis tellus, rutrum nisi imperdiet laoreet neque at ullamcorper, erat neque quis sociosqu rutrum imperdiet.",
+        "productPDF": "../../../assets/Guide-to-teaching.pdf",
+        "productPDFtitle":"Guide-to-teaching",
+        "productImg": "../../../assets/digitalProduct1.png"
+    }
+]
